@@ -1,8 +1,10 @@
-# Internal Dependency Trace
+# Site Cloner
 
-This script will generate a [Mermaid](https://mermaid.js.org/intro/) directed graph as an SVG image showing the dependency connections between files starting with the input file as an entrypoint.
+Ferramenta para clonar sites estáticos que você tenha permissão para copiar e já preparar para hospedagem no Netlify ou GitHub Pages.
 
-1. Set input file in `src/index.js`
-1. `pnpm i`
-1. `pnpm generate`
-1. Open `output/trace.svg` in a browser
+## Como usar
+
+1. Clone este repositório:
+```bash
+git clone https://github.com/seuusuario/site-cloner.git
+cd site-cloner
